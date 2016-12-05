@@ -1,3 +1,6 @@
 # vue2-demo
-vue2\vuex\vue-router  demo
 use vue2 version build demo
+
+# useage
+ 1. *npm install*
+ 2. *npm run dev*

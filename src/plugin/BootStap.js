@@ -1,6 +1,8 @@
 //隔行换色表格插件
-import alert from '../components/alert'
-import Tab from '../components/Tab'
+import alert from './alert'
+import Tab from './Tab'
+import QuesTab from './tab/QuesTab'
+import QuesTabPanel from './tab/QuesTabPanel'
 const BootStap = {
   install: function(Vue, options){
     
@@ -21,7 +23,7 @@ const BootStap = {
           console.log(data);
         }
       },
-      components:{alert,Tab}
+      components:{alert,Tab,QuesTab,QuesTabPanel}
       
     })
 

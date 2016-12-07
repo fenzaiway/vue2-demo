@@ -18,6 +18,7 @@
           <li class="active"><router-link to="/userlist">用户列表</router-link></li>
           <li><router-link to="/personal">个人中心</router-link></li>
           <li><router-link to="/test">测试</router-link></li>
+          <li><router-link to="/render">渲染</router-link></li>
         </ul>
       </div>
   </nav>

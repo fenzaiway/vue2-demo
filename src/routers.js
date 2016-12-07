@@ -6,6 +6,7 @@ import UserList from "./components/UserList";
 import Personal from "./components/Personal";
 import AddUser from "./components/AddUser";
 import test from "./components/test";
+import renderTest from "./components/renderTest";
 
 
 Vue.use(VueRouter)
@@ -28,6 +29,10 @@ const routes = [
   {
     path:'/test',
     component:test
+  },
+  {
+    path:'/render',
+    component:renderTest
   }
 ]
 

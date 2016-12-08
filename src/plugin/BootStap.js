@@ -5,6 +5,8 @@ import QuesTab from './tab/QuesTab'
 import QuesTabPanel from './tab/QuesTabPanel'
 import NiButton from './button/NiButton'
 import NiButtonGroup from './button/NiButtonGroup'
+import NiRadio from './radio/NiRadio'
+import NiCheckbox from './checkbox/NiCheckbox'
 const BootStap = {
   install: function(Vue, options){
     
@@ -31,7 +33,9 @@ const BootStap = {
           QuesTab,
           QuesTabPanel,
           NiButton,
-          NiButtonGroup
+          NiButtonGroup,
+          NiRadio,
+          NiCheckbox
       }
       
     })

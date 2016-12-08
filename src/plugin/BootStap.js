@@ -3,6 +3,8 @@ import alert from './alert'
 import Tab from './Tab'
 import QuesTab from './tab/QuesTab'
 import QuesTabPanel from './tab/QuesTabPanel'
+import NiButton from './button/NiButton'
+import NiButtonGroup from './button/NiButtonGroup'
 const BootStap = {
   install: function(Vue, options){
     
@@ -23,7 +25,14 @@ const BootStap = {
           console.log(data);
         }
       },
-      components:{alert,Tab,QuesTab,QuesTabPanel}
+      components:{
+          alert,
+          Tab,
+          QuesTab,
+          QuesTabPanel,
+          NiButton,
+          NiButtonGroup
+      }
       
     })
 

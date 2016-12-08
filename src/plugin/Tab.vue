@@ -3,7 +3,10 @@
     <!-- Nav tabs -->
     <ul class="nav nav-tabs" role="tablist">
       <li role="presentation" :class="{'active':(activeIndex==index)}" v-for="(o, index) in tabDatas">
-        <a :href="'#tabId-'+index" role="tab" data-toggle="tab">{{o.title}}</a>
+        <a :href="'#tabId-'+index" role="tab" data-toggle="tab">
+          {{o.title}}
+          <span><button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button></span>
+        </a>
       </li>
     </ul>
 
